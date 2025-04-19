@@ -1,0 +1,399 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    #overflow: auto;
+    #overflow-x: hidden;
+    text-decoration: none;
+}
+
+html, body {
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    #text-decoration: none;
+    margin: 0px 0px;
+}
+.container{
+    #margin: 0px 10px;
+}
+
+.headmain{   
+    z-index: 1;
+    #position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 40px;
+    margin-top: 5px;
+    font-family: 'Arsenal SC', sans-serif; 
+}
+.headmain img{
+    height: 40px;
+}
+.subscribe{
+    font-family: 'Arsenal SC', sans-serif;
+    font-size: 25px;
+    font-weight: 700;    
+    color:#044668;
+    #padding: 5px 45px;
+}
+.contacts{
+    #margin: 30px;
+    padding: 5px 45px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.main{
+    background-image: url(image/background.jpg);
+    background-position: center;
+    height: 200px;
+    #padding-top: 70px; */нужно, когда зафиксир headmain
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+}
+.main img{
+    max-width: 33%;
+    max-height: 100%;
+}
+.Name{
+    #position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif, fantasy;
+    font-size: 25px;
+    font-weight: 600;
+    background-color: #db2d47;
+    color: #ffffff;
+}
+.Background{
+    position: absolute;
+    width: 100%
+}
+.FotoCat{
+    #float: left;
+    height: 180px;
+}
+.TextCat{
+    margin-bottom: 50px;
+    height: 90px;
+}
+.Foto{
+    #float: right;
+    height: 200px;
+}
+.title{
+    #padding-top: 10px;
+    padding: 5px;
+    padding-left: 50px;
+    font-family: 'Arsenal SC', sans-serif;
+    font-size: 35px;
+    #text-decoration: overline;
+    #border: 3px #E73445 dashed;
+    border-radius: 10px;
+    color: #ffffff;
+    background-color: #044668;
+    margin-bottom: 5px;
+}
+.fonBuy{
+    background-color: #f8d867;
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 15px;
+    color: #626d64;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    padding: 10px 20px;
+    margin: 10px 10px;
+    border-radius: 20px;
+    #width: 60vw;
+}
+.price{
+    text-decoration: line-through;
+}
+.buttonBuy{
+    background-color: #db2d47;
+    color: #ffffff;
+    font-family: sans-serif, fantasy;
+    font-size: 22px;
+    display: flex;
+    justify-content: center;
+    padding: 15px 60px;
+    margin: 7px 20px;
+    border-radius: 15px;
+    border: 3px #636763 solid;
+    text-decoration: none;
+}
+.buttonBuy:hover{
+    background-color: #61c6a9;
+    font-family: sans-serif, fantasy;
+    text-decoration: none;
+}
+.descriptionMain{
+    font-family: 'Balsamiq Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    #text-decoration: underline;    
+    #margin-top: 20px;
+    padding: 20px 10px 10px 10px;
+    display: flex;
+    justify-content: center;
+    text-align: center;    
+    line-height: 25px;
+    color: #044668;
+}
+.descriptionTitle{
+    font-size: 25px;
+    font-family: 'Arsenal SC', sans-serif;
+    font-weight: 700;
+    #text-decoration: underline;
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-right: 20px;
+    #color: #454864;
+}
+.description{
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-family: 'Arsenal SC', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    color: #454864;
+    line-height: 25px;
+    padding-top: 15px;
+}
+.description img{
+    height: 20px;
+    margin-right: 5px
+}
+.corses{    
+    margin-top: 20px;
+    margin-left: 10px;  
+    
+}
+.tablecorse{
+    width: 100vw;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;  
+    
+}
+.leftSquare img{
+    #padding-top: 30px;
+    padding-left: 10px;
+    display: flex;
+    align-items: center;
+    height: 20vw;
+}
+
+.leftSquare{
+    margin-right: 20px;
+    #height: 600px;
+    #width: 350px;
+    width: 30vw;
+    background-color: #eceeff; 
+    border-radius: 25px;
+}
+.rightSquare{
+    #height: 600px;
+    #width: 700px;
+    width: 66vw;
+    background-color: #eceeff; 
+    border-radius: 25px;
+    text-decoration: none;
+    display: flex-start;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.container2{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+.form{
+    font-family: sans-serif, fantasy;
+    font-size: 15px;
+    background-color: #454864;
+    color: #ffffff;
+    border: 2px solid #454964;
+    width: 80vw;
+}
+.headform{
+    font-family: sans-serif, fantasy;
+    display: flex;
+    justify-content: center;
+    padding: 10px 10px;
+}
+.data{   
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #efcee7;
+    font-family: sans-serif, fantasy;
+    font-size: 30px;
+}
+.data select{
+    height: 40px;
+    #width: 500px;
+    width: 50%;
+    margin-bottom: 15px;
+    margin-left: 30px;
+    padding-left: 10px;
+    font-size: 15px;
+}
+.data input{
+    height: 40px;
+    #width: 350px;
+    width: 40%;
+    margin-bottom: 15px;
+    margin-left: 30px;
+    padding-left: 10px;
+    font-size: 15px;
+}
+.send{
+    display: flex;
+    justify-content: center;
+}
+.send button{
+    #padding: 30px;
+    height: 50px;
+    width: 500px;
+    background-color: #db2d47;
+    border-radius: 15px;
+    font-family: sans-serif, fantasy;
+    font-size: 30px;
+    color: #ffffff;
+}
+.send button:hover{
+    background-color: #61c6a9;
+}
+.aboutmetitle{
+    background-color: #deeffd;
+    color: #454964;
+    font-family: sans-serif, fantasy;
+    font-size: 27px;
+    font-weight: 700;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    text-align: center;    
+}
+.aboutme{
+    background-color: #deeffd;
+    border-radius: 25px;
+    color: #454864;
+    font-size: 20px;
+    font-family: 'Arsenal SC', sans-serif;
+    font-weight: 500;
+    padding: 10px 10px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.bottom{    
+    margin-top: 20px;
+    width: 100%;
+    #height: 50px;
+    padding: 10px 10px;
+    background-color: #8185A1;    
+    text-align: center;
+    font-family: arial, fantasy;
+    font-size: 15px;    
+    color: #ffffff;
+}
+.bottom2{    
+    width: 100%;
+    height: 80px;
+    background-color: #5d6286;     
+    text-align: center;
+    place-content: center;
+    padding: 5px 10px;
+}
+.botText{    
+    text-align: center;
+    place-content: center;
+    font-family: arial, fantasy;
+    font-size: 15px;    
+    color: #ffffff;    
+}
+.gameTable{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;    
+}
+.gallery{       
+    display: block;
+    border: 2px solid #626d64;
+    margin: 20px;
+    box-shadow: 0px 0px 10px 10px #84ff9c;    
+}
+.gallery:hover{
+    box-shadow: 0px 0px 10px 10px #00ff32;    
+    margin: 20px; 
+}
+.sendDone{
+    visibility: hidden;
+}
+.marquee-infinite{
+    margin: 20px auto;
+    border: 0px solid #000;
+    max-width: 80%;
+    overflow: hidden;
+}
+.marquee-infinite div{
+    display: flex;
+    #width: 200%;
+    width: 1400px;
+    animation: marquee-infinite 20s linear infinite;
+}
+.marquee-headtext div{
+    display: flex;
+    width: 200%;
+    #width: 1400px;
+    animation: marquee-headtext 20s linear infinite;
+    padding: 5px 5px;
+}
+.marquee-headtext{
+    background-color: #db2d47;
+    border: 0px solid #000;
+    max-width: 100%;
+    overflow: hidden;
+}
+
+.marquee-headtext span{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.marquee-infinite span{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.marquee-infinite img{
+    width: 20%;
+}
+.marquee-infinite:hover div{
+    animation-play-state: paused;
+}
+@keyframes marquee-infinite{
+    0%{
+        transform: translateX(0%);
+    }
+    100%{
+        transform: translateX(-70%);
+    }
+}
+@keyframes marquee-headtext{
+    0%{
+        transform: translateX(0%);
+    }
+    100%{
+        transform: translateX(-50%);
+    }
+}
